@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    background-color: #151515;
+    color: #faf8f8;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #202020 ;
+
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    /* margin-bottom: 5px; */
+    background-color: transparent;
+    padding: 5px;
+    background-color: #202020  !important;
+
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #262626 !important;
+    color: #faf8f8;
+    font-size: 1em;
+}
+
+button.submitButton {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 15px;
+    border-width: 0px;
+    color: #faf8f8;
+    font-weight: bold;
+    background: #fe4b12;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.submitButton:hover {
+    background: #d93c0b;
+}
+
+.hidden {
+    display: none;
+}
+
+
